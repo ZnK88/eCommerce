@@ -1,0 +1,39 @@
+body {
+  background-color: #4c5063;
+}
+
+h4 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.inscriptionTitle {
+  font-size: 3rem;
+  color: #ededef;
+  text-align: center;
+}
+
+.formBody {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.formContent {
+  font-family: "Ubuntu";
+  border: 2px solid #070809;
+  border-radius: 10px;
+  background-color: #ededef;
+  width: 20rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+
+.errorMessage {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  color: red;
+}

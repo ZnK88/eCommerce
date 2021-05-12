@@ -1,0 +1,47 @@
+body {
+  background-color: #4c5063;
+  font-family: 'Ubuntu';
+}
+
+.homepage-slider {
+  display: flex;
+  justify-content: center;
+  background-color: #070809;
+  margin-bottom: 24px;
+  margin-top: 12px;
+  height: 560px;
+}
+
+.homepage-slider img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.homepage-cat2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: solid gold 0.5px;
+}
+
+.homepage-prod4 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: solid limegreen 0.5px;
+}
+
+.cat-indie {
+  width: 540px;
+  height: 320px;
+  background-color: paleturquoise;
+  margin: 6px;
+}
+
+.prod-indie {
+  width: 240px;
+  height: 240px;
+  margin: 8px;
+  padding: 6px;
+  background-color: lemonchiffon;
+}
